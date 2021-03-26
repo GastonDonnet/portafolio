@@ -68,7 +68,8 @@ export default function ProjectList() {
             title: 'Portafolio',
             description: 'Lo que estas viendo ahora!',
             state: ProjectState.Finished,
-            demos: ['#'],
+            github: "https://github.com/GastonDonnet/portafolio",
+            demos: ['https://gastondonnet.github.io/portafolio/'],
             technologies: {
                 frontend: ["React", "Typescript"],
                 backend: [],
