@@ -34,7 +34,7 @@ export default function Main() {
         <div className="py-8 lg:text-xl bg-gray-100">
 
             <div className="mx-auto container ">
-                <div className="text-xl text-center lg:text-left lg:text-2xl font-medium">Tecnologias que utilizo</div>
+                <div className="text-xl text-center lg:text-left lg:text-2xl font-medium">Tecnologías que utilizo</div>
                 <div>
                     <div className="flex flex-row flex-wrap my-2 justify-center md:justify-start">
                         {technologies['backend'].map(tech => {

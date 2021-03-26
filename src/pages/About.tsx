@@ -116,25 +116,25 @@ export default function About() {
             <div className="my-4 mx-4 flex flex-row flex-wrap justify-center">
                 <div className="my-8 px-8 flex flex-col items-center md:w-1/2 lg:w-1/3">
                     <img className="w-32" src={require("@/assets/svg/hobbies/synthesizer.svg").default} alt="" />
-                    <h2 className="mb-1 mt-3 text-xl text-blue-600">Musica</h2>
+                    <h2 className="mb-1 mt-3 text-xl text-blue-600">Música</h2>
                     <div>
                         <p>Toco el teclado y la guitarra, compongo y estuve en un par de bandas.</p>
-                        <p>Descubri la musica en 2015 y todo lo que aprendi fue de forma autodidacta.</p>
+                        <p>Descubrí la música en 2015 y todo lo que aprendí fue de forma autodidacta.</p>
                     </div>
                 </div>
                 <div className="my-8 px-8 flex flex-col items-center md:w-1/2 lg:w-1/3">
                     <img className="w-32" src={require("@/assets/svg/hobbies/books.svg").default} alt="" />
                     <h2 className="mb-1 mt-3 text-xl text-blue-600">Lectura</h2>
                     <div>
-                        <p>Me gusta muchisimo leer ficción y fantasia, al momento de escribir esto llevo casi 70 libros leidos.</p>
+                        <p>Me gusta mucho leer ficción y fantasía, al momento de escribir esto llevo casi 70 libros leidos.</p>
                     </div>
                 </div>
                 <div className="my-8 px-8 flex flex-col items-center md:w-1/2 lg:w-1/3">
                     <img className="w-32" src={require("@/assets/svg/hobbies/desktop.svg").default} alt="" />
-                    <h2 className="mb-1 mt-3 text-xl text-blue-600">Programacion</h2>
+                    <h2 className="mb-1 mt-3 text-xl text-blue-600">Programación</h2>
                     <div>
-                        <p>Hobby que comenzo desde los 12/13 años mientras jugaba un juego en el que aprendi a programar paginas html/css basicas.</p>
-                        <p>Cuando cursaba la carrera de Ingenieria Industrial, tuve varias materias que hicieron que me guste mucho y elija dedicarme a esto.</p>
+                        <p>Hobby que comenzó desde los 12/13 años mientras jugaba un juego en el que aprendí a programar paginas html/css básicas.</p>
+                        <p>Cuando cursaba la carrera de Ingeniería Industrial, tuve varias materias que hicieron que me guste mucho y elija dedicarme a esto.</p>
                     </div>
                 </div>
 

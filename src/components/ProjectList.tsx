@@ -45,7 +45,7 @@ export default function ProjectList() {
                     description: "Utiliza el panel de control personalizado de Django."
                 },
                 {
-                    title: "Procesador de imagenes",
+                    title: "Procesador de imágenes",
                     description: "Al subir una imagen, la procesa para reducir su tamaño y le agrega una marca de agua."
                 }
             ],
@@ -53,7 +53,7 @@ export default function ProjectList() {
         },
         {
             title: 'Suviba S.A.',
-            description: 'Web estatica para empresa contructora.',
+            description: 'Web estática para empresa constructora.',
             state: ProjectState.Finished,
             demos: ['https://www.suviba.com.ar'],
             technologies: {
