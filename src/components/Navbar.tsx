@@ -17,11 +17,11 @@ export default function Navbar() {
                 ? <div className="w-full sticky top-0 flex flex-row items-center shadow-md bg-gray-100 bg-opacity-90 text-gray-700 h-14 z-10" style={
                     { backdropFilter: "blur(3px)" }
                 }>
-                    <Link className="ml-auto mx-2" to="/"><NavbarButton className="w-full" title="Inicio"></NavbarButton></Link >
-                    <Link className="mx-2" to="/services"><NavbarButton className="w-full" title="Servicios"></NavbarButton></Link>
-                    <Link className="mx-2" to="/projects"><NavbarButton className="w-full" title="Proyectos"></NavbarButton></Link>
-                    <Link className="mx-2" to="/about"><NavbarButton className="w-full" title="Sobre mi"></NavbarButton></Link>
-                    <Link className="mx-2" to="/contact"><NavbarButton className="w-full" title="Contacto"></NavbarButton></Link>
+                    <Link className="ml-auto mx-2" to="/portafolio/"><NavbarButton className="w-full" title="Inicio"></NavbarButton></Link >
+                    <Link className="mx-2" to="/portafolio/services"><NavbarButton className="w-full" title="Servicios"></NavbarButton></Link>
+                    <Link className="mx-2" to="/portafolio/projects"><NavbarButton className="w-full" title="Proyectos"></NavbarButton></Link>
+                    <Link className="mx-2" to="/portafolio/about"><NavbarButton className="w-full" title="Sobre mi"></NavbarButton></Link>
+                    <Link className="mx-2" to="/portafolio/contact"><NavbarButton className="w-full" title="Contacto"></NavbarButton></Link>
                 </div >
 
                 : <div className="w-full sticky top-0 flex flex-col items-center shadow-md bg-gray-100 bg-opacity-90 text-gray-700 z-10" style={
@@ -33,11 +33,11 @@ export default function Navbar() {
 
                     {
                         show
-                            ? <> <Link onClick={() => setShow(!show)} className="w-full" to="/"><NavbarButton className="w-full" title="Inicio"></NavbarButton></Link>
-                                <Link onClick={() => setShow(!show)} className="w-full" to="/services"><NavbarButton className="w-full" title="Servicios"></NavbarButton></Link>
-                                <Link onClick={() => setShow(!show)} className="w-full" to="/projects"><NavbarButton className="w-full" title="Proyectos"></NavbarButton></Link>
-                                <Link onClick={() => setShow(!show)} className="w-full" to="/about"><NavbarButton className="w-full" title="Sobre mi"></NavbarButton></Link>
-                                <Link onClick={() => setShow(!show)} className="w-full" to="/contact"><NavbarButton className="w-full" title="Contacto"></NavbarButton></Link>
+                            ? <> <Link onClick={() => setShow(!show)} className="w-full" to="/portafolio/"><NavbarButton className="w-full" title="Inicio"></NavbarButton></Link>
+                                <Link onClick={() => setShow(!show)} className="w-full" to="/portafolio/services"><NavbarButton className="w-full" title="Servicios"></NavbarButton></Link>
+                                <Link onClick={() => setShow(!show)} className="w-full" to="/portafolio/projects"><NavbarButton className="w-full" title="Proyectos"></NavbarButton></Link>
+                                <Link onClick={() => setShow(!show)} className="w-full" to="/portafolio/about"><NavbarButton className="w-full" title="Sobre mi"></NavbarButton></Link>
+                                <Link onClick={() => setShow(!show)} className="w-full" to="/portafolio/contact"><NavbarButton className="w-full" title="Contacto"></NavbarButton></Link>
                             </>
                             : null
                     }
