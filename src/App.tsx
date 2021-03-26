@@ -20,11 +20,11 @@ function App() {
         <Navbar></Navbar>
         <div className="-mt-14 pt-14 -mb-7 pb-7 min-h-screen">
           <Switch>
-            <Route path="/contact"><Contact></Contact></Route>
-            <Route path="/projects"><Projects></Projects></Route>
-            <Route path="/about"><About></About></Route>
-            <Route path="/services"><Services></Services></Route>
-            <Route path="/"><Main></Main></Route>
+            <Route path="/portafolio/contact"><Contact></Contact></Route>
+            <Route path="/portafolio/projects"><Projects></Projects></Route>
+            <Route path="/portafolio/about"><About></About></Route>
+            <Route path="/portafolio/services"><Services></Services></Route>
+            <Route path="/portafolio/"><Main></Main></Route>
           </Switch>
         </div>
         <Footer></Footer>
