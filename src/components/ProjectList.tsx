@@ -23,6 +23,10 @@ export default function ProjectList() {
                 {
                     title: "eCommerce",
                     description: "Las tiendas son mostradas al publico general, el cual puede comprar un producto al ingresar a su cuenta."
+                },
+                {
+                    title: "Para testear",
+                    description: "Usuario: administrador@administrador.com - Contraseña: administrador"
                 }
             ],
             image: "projects/LoConnected.png"
