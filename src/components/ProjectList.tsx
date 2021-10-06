@@ -33,7 +33,7 @@ export default function ProjectList() {
             description: 'Web de ventas de cuadros.',
             state: ProjectState.Finished,
             github: 'https://github.com/GastonDonnet/dbarte',
-            demos: ['https://www.dbarte.com.ar'],
+            demos: ['https://www.dbarte.tk'],
             technologies: {
                 frontend: ["Vue", "Tailwindcss"],
                 backend: ["Python", "Django"],
