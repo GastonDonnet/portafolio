@@ -12,14 +12,28 @@ export default function About() {
                 {
                     title: "Proyecto Final: ",
                     description: <>
-                        Balanceo de lineas de ensamble <a className="text-blue-500 font-light" href="#">(Github con algoritmos desarrollados)</a>
+                        Balanceo de lineas de ensamble <a className="text-blue-500 font-light" href="https://github.com/GastonDonnet/assembly-line-balancing">(Github con algoritmos desarrollados)</a>
                     </>
                 }
             ]
         },
     ]
 
-    const WORKS: Work[] = [{
+    const WORKS: Work[] = [
+    {
+        title: "Fullstack Developer",
+        employee: "Lima Innovation Lab",
+        duration: "03/2021 - 09/2021",
+        place: "Perú (remoto)",
+        tasks: [
+            "Estaba encargado de mantener el ambiente productivo, desarrollando tareas y corrigiendo errores que surgian todas las semanas a pedido del cliente y estaban fuera de proyecto",
+            "Backend con Python + Django + PSQL",
+            "Frontend con Angular",
+            "Corregir y tomar entrevistas técnicas para puestos Backend",
+            "Contacto estrecho con el cliente para solución de problemas"
+        ]
+    },
+    {
         title: "Ayudante Alumno en Administración de operaciones",
         employee: "Facultad de Ingeniería Química U.N.L.",
         duration: "08/2019 - 12/2020",
@@ -118,7 +132,7 @@ export default function About() {
                     <img className="w-32" src={require("@/assets/svg/hobbies/synthesizer.svg").default} alt="" />
                     <h2 className="mb-1 mt-3 text-xl text-blue-600">Música</h2>
                     <div>
-                        <p>Toco el teclado y la guitarra, compongo y estuve en un par de bandas.</p>
+                        <p>Toco el teclado y la guitarra, compongo, estuve y estoy en algunas bandas.</p>
                         <p>Descubrí la música en 2015 y todo lo que aprendí fue de forma autodidacta.</p>
                     </div>
                 </div>
@@ -126,7 +140,7 @@ export default function About() {
                     <img className="w-32" src={require("@/assets/svg/hobbies/books.svg").default} alt="" />
                     <h2 className="mb-1 mt-3 text-xl text-blue-600">Lectura</h2>
                     <div>
-                        <p>Me gusta mucho leer ficción y fantasía, al momento de escribir esto llevo casi 70 libros leidos.</p>
+                        <p>Me gusta mucho leer ficción y fantasía, al momento de escribir esto llevo mas de <a className="text-blue-500 font-light" href="https://www.goodreads.com/user/show/84785359-gaston-donnet">75 libros leidos</a>.</p>
                     </div>
                 </div>
                 <div className="my-8 px-8 flex flex-col items-center md:w-1/2 lg:w-1/3">

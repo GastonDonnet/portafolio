@@ -22,7 +22,7 @@ export default function Main() {
                     { backdropFilter: "blur(3px)" }
                 }>
                 <div className="text-3xl mb-2">Mi nombre es <span className="text-blue-900">Gastón</span></div>
-                <p>Soy un <span className="text-blue-800">Fullstack Developer</span> y casi <span className="text-blue-800">Ingeniero Industrial</span>.</p>
+                <p>Soy <span className="text-blue-800">Fullstack Developer</span> e <span className="text-blue-800">Ingeniero Industrial</span>.</p>
                 <p className="font-normal">Si buscas construir <span className="text-blue-700">aplicaciones web</span> para tu empresa</p>
                 <Link to="/contact">
                     <button className="bg-gray-800 hover:bg-gray-300 text-gray-50 hover:text-gray-800 p-4 my-4 text-2xl w-full transition-colors ">
